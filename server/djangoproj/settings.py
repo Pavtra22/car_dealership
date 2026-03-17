@@ -12,3 +12,4 @@ INSTALLED_APPS = [
 # Ensure static files are configured
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'frontend/static'),]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
